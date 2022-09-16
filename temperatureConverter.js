@@ -4,7 +4,7 @@ function temperatureConverter(temperature, temperatureType) {
     } else if (temperatureType === "F") {
         return (temperature - 32) * 5/9;
     } else {
-        return "llegal temperature type"
+        return "llegal temperature type."
     }
 }
 
